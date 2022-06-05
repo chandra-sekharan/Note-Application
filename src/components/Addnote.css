@@ -1,0 +1,42 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+.Addnote{
+    width: 250px;
+    height:150px;
+    background-color:rgba(18, 196, 241, 0.658);
+    padding: 40px 25px;
+    display: flex;
+    float: left;
+    flex-direction: column;
+    justify-content: space-between;
+    margin-left: 20px;
+    border-radius: 12px;
+    margin-top: 30px;
+}
+textarea{
+    position: absolute;
+    resize: none;
+    width: 170px;
+    padding: 0 40px;
+    background: transparent;
+    border:none;
+    overflow: hidden;
+    outline: none;
+    font-weight: bold;
+}
+.Addnote-footer{
+ margin-top: 150px;
+}
+button{
+    position: relative;
+    float:right;
+    padding: 2px;
+    border-radius: 5px;
+    border: none;
+    box-shadow: 1px 4px 5px;
+}
+button:hover{
+    background-color:lightgreen;
+}

@@ -1,0 +1,24 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.note{
+    width: 250px;
+    height:150px;
+    background-color:rgb(245, 245, 146);
+    padding: 40px 25px;
+    display: flex;
+    float: left;
+    flex-direction: column;
+    justify-content: space-between;
+    margin-left: 20px;
+    border-radius: 12px;
+    margin-top: 30px;
+}
+.note-footer{
+ margin-top: 125px;
+}
+img {
+    position: relative;
+    float:right;
+}
